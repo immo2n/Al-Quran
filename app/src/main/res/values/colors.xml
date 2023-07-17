@@ -5,9 +5,15 @@
     <color name="primary_lite">#6B6F2A</color>
     <color name="secondary">#8D744A</color>
     <color name="secondary_dark">#635D1F</color>
+    <color name="text_black">#B3000000</color>
+    <color name="text_hint">#66000000</color>
     
-    <!--splash-->
+    <!-- splash -->
     <color name="splash_upper_back">#494501</color>
+    <color name="splash_background">#e4e1d2</color>
+
+    <!-- login -->
+    <color name="login_box_border">#660A5966</color>
 
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>

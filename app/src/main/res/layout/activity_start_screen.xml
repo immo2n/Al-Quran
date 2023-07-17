@@ -10,25 +10,20 @@
         android:scaleY="1.1"
         android:scaleX="1.05"
         android:id="@+id/logo_full"
-        android:src="@drawable/splash_screen_upper"
+        android:src="@drawable/start_screen_upper"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintDimensionRatio="13:9"
+        app:layout_constraintDimensionRatio="13:7"
         tools:ignore="MissingConstraints"
         android:contentDescription="@string/des_upper_design" />
 
-    <ImageView
-        android:layout_marginTop="80dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/logo_full"
-        tools:ignore="MissingConstraints"
-        app:layout_constraintTop_toBottomOf="@id/logo_full"
-        app:layout_constraintStart_toStartOf="@id/logo_full"
-        app:layout_constraintEnd_toEndOf="@id/logo_full"
-        android:contentDescription="@string/des_full_logo" />
+    <!-- Material Card view can not be used here as
+    raster image is used as background -->
 
-    <ImageView
+    <RelativeLayout
+        android:id="@+id/get_started"
+        android:gravity="center"
+        android:background="@drawable/get_started"
         android:layout_marginBottom="70dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,8 +32,14 @@
         android:layout_marginTop="80dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/round_arabic_logo"
         tools:ignore="MissingConstraints"
-        android:contentDescription="@string/des_round_logo" />
+        android:contentDescription="@string/des_round_logo">
+        <ImageView
+            android:layout_marginStart="150dp"
+            android:src="@drawable/ic_round_double_arrow"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/des_arrow" />
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

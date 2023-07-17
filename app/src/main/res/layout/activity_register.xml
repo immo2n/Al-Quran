@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:scaleX="1.08"
+        android:id="@+id/logo_full"
+        android:src="@drawable/login_upper_back"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="13:9"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/des_upper_design" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="-110dp"
+        android:contentDescription="@string/des_full_logo"
+        android:src="@drawable/arabic_logo_two"
+        app:layout_constraintEnd_toEndOf="@id/logo_full"
+        app:layout_constraintStart_toStartOf="@id/logo_full"
+        app:layout_constraintTop_toBottomOf="@id/logo_full"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginTop="310dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:paddingBottom="50dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textColor="@color/text_black"
+                android:textAlignment="center"
+                android:fontFamily="@font/siliguri"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:text="@string/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textColor="@color/primary"
+                android:textAlignment="center"
+                android:fontFamily="@font/siliguri"
+                android:textSize="15sp"
+                android:text="@string/register_your_account_if_you_are_new_here"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <!-- Material design side effect
+            Hint has a top margin out of no where
+            !-->
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name_star"
+                android:textColorHint="@color/text_hint"
+                android:background="@drawable/login_edit_texts"
+                app:boxBackgroundMode="none">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/siliguri"
+                    android:textColorHint="@color/text_black"
+                    android:inputType="text"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mobile_number_star"
+                android:textColorHint="@color/text_hint"
+                android:background="@drawable/login_edit_texts"
+                app:boxBackgroundMode="none">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/user_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/siliguri"
+                    android:textColorHint="@color/text_black"
+                    android:inputType="phone"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email_address_star"
+                android:textColorHint="@color/text_hint"
+                android:background="@drawable/login_edit_texts"
+                app:boxBackgroundMode="none">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/user_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/siliguri"
+                    android:textColorHint="@color/text_black"
+                    android:inputType="textEmailAddress"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password_star"
+                android:textColorHint="@color/text_hint"
+                android:background="@drawable/login_edit_texts"
+                app:boxBackgroundMode="none">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/user_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/siliguri"
+                    android:textColorHint="@color/text_black"
+                    android:inputType="textPassword"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <ImageButton
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:src="@drawable/button_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/login" />
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/siliguri"
+                android:textColor="@color/black"
+                android:text="@string/or"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_width="180dp"
+                android:layout_height="50dp">
+                <ImageButton
+                    android:id="@+id/button_facebook"
+                    android:src="@drawable/ic_baseline_facebook"
+                    android:background="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/facebook" />
+                <ImageButton
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:id="@+id/button_apple"
+                    android:src="@drawable/ri_apple_fill"
+                    android:background="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/apple" />
+                <ImageButton
+                    android:id="@+id/button_google"
+                    android:src="@drawable/flat_color_icons_google"
+                    android:background="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/google" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_forget_password"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/siliguri"
+                android:textColor="@color/black"
+                android:text="@string/forgot_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- Using material for this will get complicated !-->
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:fontFamily="@font/siliguri"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:text="@string/already_have_an_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:id="@+id/text_login_now"
+                    android:layout_marginStart="4dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/siliguri"
+                    android:textColor="@color/primary"
+                    android:textSize="16sp"
+                    android:text="@string/login_now"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

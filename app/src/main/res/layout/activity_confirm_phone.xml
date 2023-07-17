@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:scaleX="1.08"
+        android:id="@+id/logo_full"
+        android:src="@drawable/login_upper_back"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="13:9"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/des_upper_design" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="-110dp"
+        android:contentDescription="@string/des_full_logo"
+        android:src="@drawable/arabic_logo_two"
+        app:layout_constraintEnd_toEndOf="@id/logo_full"
+        app:layout_constraintStart_toStartOf="@id/logo_full"
+        app:layout_constraintTop_toBottomOf="@id/logo_full"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginTop="310dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:paddingBottom="50dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textColor="@color/text_black"
+                android:textAlignment="center"
+                android:fontFamily="@font/siliguri"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:text="@string/confirm_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/primary"
+                android:textAlignment="center"
+                android:fontFamily="@font/siliguri"
+                android:textSize="15sp"
+                android:text="@string/we_have_sent_an_otp_to_your_phone_number_enter_your_otp_to_confirm_your_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="45dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/login_edit_texts"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_width="45dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/login_edit_texts"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textAlignment="center"/>
+
+                <EditText
+                    android:layout_marginEnd="10dp"
+                    android:layout_width="45dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/login_edit_texts"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textAlignment="center"/>
+
+                <EditText
+
+                    android:layout_marginEnd="10dp"
+                    android:layout_width="45dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/login_edit_texts"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textAlignment="center"/>
+
+                <EditText
+                    android:layout_marginEnd="10dp"
+                    android:layout_width="45dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/login_edit_texts"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textAlignment="center"/>
+
+                <EditText
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_width="45dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/login_edit_texts"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+            
+            <ImageButton
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:src="@drawable/button_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/login" />
+
+            <!-- Using material for this will get complicated !-->
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:fontFamily="@font/siliguri"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:text="@string/already_have_an_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:id="@+id/text_login_now"
+                    android:layout_marginStart="4dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/siliguri"
+                    android:textColor="@color/primary"
+                    android:textSize="16sp"
+                    android:text="@string/login_now"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:text="@string/did_not_get_a_code"
+                android:textSize="16sp"
+                android:fontFamily="@font/siliguri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:fontFamily="@font/siliguri"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:text="@string/resend_code_in"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:id="@+id/resend_time"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/siliguri"
+                    android:textColor="@color/primary"
+                    android:textSize="16sp"
+                    android:text="@string/time_dummy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
