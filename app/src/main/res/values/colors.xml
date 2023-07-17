@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--app theme colors directly from figma-->
+    <color name="primary">#3F4519</color>
+    <color name="primary_lite">#6B6F2A</color>
+    <color name="secondary">#8D744A</color>
+    <color name="secondary_dark">#635D1F</color>
+    
+    <!--splash-->
+    <color name="splash_upper_back">#494501</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
