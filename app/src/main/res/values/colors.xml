@@ -17,7 +17,9 @@
     
     <!-- home -->
     <color name="home_buttons">#E6FFFFFF</color>
+    <color name="list_back">#F8FFFF</color>
 
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="border">#f1f1f1</color>
 </resources>

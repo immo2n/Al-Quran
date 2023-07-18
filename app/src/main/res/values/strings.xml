@@ -35,4 +35,7 @@
     <string name="did_not_get_a_code">Didn’t get a code?</string>
     <string name="resend_code_in">Resend code in</string>
     <string name="time_dummy">00:30</string>
+    <string name="all_surah">সব সূরা:</string>
+    <string name="al_fatiha">১। আল-ফাতিহা</string>
+    <string name="arabic_example">الفَاتِحَة</string>
 </resources>

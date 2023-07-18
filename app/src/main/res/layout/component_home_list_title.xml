@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:layout_marginTop="10dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:gravity="left|center"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    tools:ignore="MissingConstraints,RtlHardcoded"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/primary" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title_text"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginStart="5dp"
+        android:fontFamily="@font/siliguri"
+        android:text="@string/all_surah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/filter_button"
+        android:background="@color/white"
+        android:src="@drawable/home_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
