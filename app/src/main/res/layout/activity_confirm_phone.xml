@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
-    <ImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:scaleX="1.08"
         android:id="@+id/logo_full"
         android:src="@drawable/login_upper_back"
@@ -16,7 +16,7 @@
         tools:ignore="MissingConstraints"
         android:contentDescription="@string/des_upper_design" />
 
-    <ImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/imageView3"
         android:layout_width="130dp"
         android:layout_height="130dp"
@@ -33,12 +33,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         
-        <LinearLayout
+        <androidx.appcompat.widget.LinearLayoutCompat
             android:paddingBottom="50dp"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-            <TextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:textColor="@color/text_black"
                 android:textAlignment="center"
                 android:fontFamily="@font/siliguri"
@@ -47,7 +47,7 @@
                 android:text="@string/confirm_phone_number"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <TextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:layout_marginStart="30dp"
                 android:layout_marginEnd="30dp"
                 android:textColor="@color/primary"
@@ -67,7 +67,7 @@
                 android:layout_height="60dp"
                 android:orientation="horizontal">
 
-                <EditText
+                <androidx.appcompat.widget.AppCompatEditText
                     android:layout_width="45dp"
                     android:layout_height="match_parent"
                     android:background="@drawable/login_edit_texts"
@@ -75,7 +75,7 @@
                     android:maxLength="1"
                     android:textAlignment="center" />
 
-                <EditText
+                <androidx.appcompat.widget.AppCompatEditText
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
                     android:layout_width="45dp"
@@ -85,7 +85,7 @@
                     android:maxLength="1"
                     android:textAlignment="center"/>
 
-                <EditText
+                <androidx.appcompat.widget.AppCompatEditText
                     android:layout_marginEnd="10dp"
                     android:layout_width="45dp"
                     android:layout_height="match_parent"
@@ -94,8 +94,7 @@
                     android:maxLength="1"
                     android:textAlignment="center"/>
 
-                <EditText
-
+                <androidx.appcompat.widget.AppCompatEditText
                     android:layout_marginEnd="10dp"
                     android:layout_width="45dp"
                     android:layout_height="match_parent"
@@ -104,7 +103,7 @@
                     android:maxLength="1"
                     android:textAlignment="center"/>
 
-                <EditText
+                <androidx.appcompat.widget.AppCompatEditText
                     android:layout_marginEnd="10dp"
                     android:layout_width="45dp"
                     android:layout_height="match_parent"
@@ -113,9 +112,7 @@
                     android:maxLength="1"
                     android:textAlignment="center"/>
 
-                <EditText
-                    android:layout_marginStart="10dp"
-                    android:layout_marginEnd="10dp"
+                <androidx.appcompat.widget.AppCompatEditText
                     android:layout_width="45dp"
                     android:layout_height="match_parent"
                     android:background="@drawable/login_edit_texts"
@@ -133,22 +130,21 @@
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/login" />
 
-            <!-- Using material for this will get complicated !-->
-
-            <LinearLayout
+         
+            <androidx.appcompat.widget.LinearLayoutCompat
                 android:layout_marginTop="10dp"
                 android:gravity="center"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                <TextView
+                <androidx.appcompat.widget.AppCompatTextView
                     android:fontFamily="@font/siliguri"
                     android:textColor="@color/black"
                     android:textSize="16sp"
                     android:text="@string/already_have_an_account"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"/>
-                <TextView
+                <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/text_login_now"
                     android:layout_marginStart="4dp"
                     android:textStyle="bold"
@@ -158,9 +154,9 @@
                     android:text="@string/login_now"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"/>
-            </LinearLayout>
+            </androidx.appcompat.widget.LinearLayoutCompat>
 
-            <TextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:layout_marginTop="20dp"
                 android:textAlignment="center"
                 android:text="@string/did_not_get_a_code"
@@ -169,19 +165,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <LinearLayout
+            <androidx.appcompat.widget.LinearLayoutCompat
                 android:gravity="center"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                <TextView
+                <androidx.appcompat.widget.AppCompatTextView
                     android:fontFamily="@font/siliguri"
                     android:textColor="@color/black"
                     android:textSize="16sp"
                     android:text="@string/resend_code_in"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"/>
-                <TextView
+                <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/resend_time"
                     android:layout_marginStart="10dp"
                     android:textStyle="bold"
@@ -191,9 +187,9 @@
                     android:text="@string/time_dummy"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"/>
-            </LinearLayout>
+            </androidx.appcompat.widget.LinearLayoutCompat>
 
-        </LinearLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
         
     </androidx.core.widget.NestedScrollView>
 
