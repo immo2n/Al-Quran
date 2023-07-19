@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- USE FRAME LAYOUT AND FLYOUT CONTAINER TO USE THIS
+AS A FILTER MENU
+
+<FrameLayout
+    android:id="@+id/flyoutContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="invisible">
+
+    This component goes here
+
+</FrameLayout>
+
+Button button = findViewById(R.id.yourButtonId);
+FrameLayout flyoutContainer = findViewById(R.id.flyoutContainer);
+
+button.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        if (flyoutContainer.getVisibility() == View.VISIBLE) {
+            flyoutContainer.setVisibility(View.INVISIBLE);
+        } else {
+            flyoutContainer.setVisibility(View.VISIBLE);
+        }
+    }
+});
+
+!-->
+
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical"
+    android:paddingStart="25dp"
+    android:paddingEnd="25dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/rounded_menu_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:gravity="center"
+        app:fontFamily="@font/siliguri"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="@string/surah"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:background="@color/primary"
+        android:layout_width="70dp"
+        android:layout_height="2dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:gravity="center"
+        app:fontFamily="@font/siliguri"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="@string/page"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:background="@color/primary"
+        android:layout_width="70dp"
+        android:layout_height="2dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:gravity="center"
+        app:fontFamily="@font/siliguri"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="@string/para"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:background="@color/primary"
+        android:layout_width="70dp"
+        android:layout_height="2dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:gravity="center"
+        app:fontFamily="@font/siliguri"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="@string/hijb"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

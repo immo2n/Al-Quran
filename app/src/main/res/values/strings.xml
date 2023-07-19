@@ -38,4 +38,8 @@
     <string name="all_surah">সব সূরা:</string>
     <string name="al_fatiha">১। আল-ফাতিহা</string>
     <string name="arabic_example">الفَاتِحَة</string>
+    <string name="surah">সূরা</string>
+    <string name="page">পৃষ্ঠা</string>
+    <string name="para">পারা</string>
+    <string name="hijb">হিজব</string>
 </resources>
