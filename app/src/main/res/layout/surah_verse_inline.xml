@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textview.MaterialTextView
+            android:fontFamily="@font/noto_sans_arabic"
+            android:id="@+id/roundedTextView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="@string/dummy_one"
+            android:textColor="@color/primary"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/circle_back" />
+        <com.google.android.material.textview.MaterialTextView
+            android:textSize="18sp"
+            android:fontFamily="@font/noto_sans_arabic"
+            android:text="@string/dummy_verse"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>
