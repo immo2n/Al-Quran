@@ -53,4 +53,9 @@
     <string name="kari">ক্বারি</string>
     <string name="repeat_every_verse">প্রতি আয়াত পুনরাবৃত্তি</string>
     <string name="okay">ঠিক আছে</string>
+    <string name="yes">হ্যাঁ</string>
+    <string name="no">না</string>
+    <string name="dummy_kari">Ayman Suwaid</string>
+    <string name="one">১</string>
+    <string name="al_fatiha_name">আল-ফাতিহা</string>
 </resources>
