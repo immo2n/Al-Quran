@@ -47,4 +47,10 @@
     <string name="dummy_one">১</string>
     <string name="dummy_verse">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ </string>
     <string name="dummy_time">1:30s</string>
+    <string name="audio">অডিও</string>
+    <string name="start">শুরু</string>
+    <string name="end">শেষ</string>
+    <string name="kari">ক্বারি</string>
+    <string name="repeat_every_verse">প্রতি আয়াত পুনরাবৃত্তি</string>
+    <string name="okay">ঠিক আছে</string>
 </resources>
