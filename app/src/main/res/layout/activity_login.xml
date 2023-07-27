@@ -56,10 +56,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <!-- Material design side effect
-            Hint has a top margin out of no where
-            !-->
-
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_marginTop="30dp"
                 android:layout_marginStart="30dp"
