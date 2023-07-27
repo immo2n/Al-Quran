@@ -45,7 +45,7 @@
     <string name="name_al_fatiha">আল-ফাতিহা</string>
     <string name="detail_dummy">পারাঃ১ পৃষ্ঠাঃ২</string>
     <string name="dummy_one">১</string>
-    <string name="dummy_verse">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ </string>
+    <string name="dummy_verse">ٱلْحَمْدُ    لِلَّهِ    رَبِّ    ٱلْعَـٰلَمِينَ</string>
     <string name="dummy_time">1:30s</string>
     <string name="audio">অডিও</string>
     <string name="start">শুরু</string>
@@ -59,4 +59,6 @@
     <string name="one">১</string>
     <string name="al_fatiha_name">আল-ফাতিহা</string>
     <string name="dummy_ayyat">আয়াতঃ ২</string>
+    <string name="dummy_arabic_to_bangla">যাবতীয় প্রশংসা জগৎসমূহের প্রতিপালক আল্লাহরই জন্য</string>
+    <string name="dummy_word">জগৎসমূহের যিনি রব আল্লাহর যাবতীয় প্রশংসা</string>
 </resources>
