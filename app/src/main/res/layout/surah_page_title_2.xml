@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:background="@drawable/rounded_home_buttons"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:src="@drawable/home_menu_book"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/siliguri"
+            android:text="@string/name_al_fatiha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:gravity="center"
+            android:textSize="15sp"
+            android:fontFamily="@font/kalpurush"
+            android:text="@string/detail_dummy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
