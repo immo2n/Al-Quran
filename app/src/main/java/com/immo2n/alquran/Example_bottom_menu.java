@@ -3,7 +3,6 @@ package com.immo2n.alquran;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.MotionEvent;
-import android.view.View;
 import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;

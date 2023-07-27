@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center|left"
+    android:background="@drawable/library_list_child_back"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    tools:ignore="RtlHardcoded"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:gravity="center"
+        android:id="@+id/type_image"
+        android:layout_marginStart="15dp"
+        android:src="@drawable/note_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:gravity="center"
+        android:id="@+id/name_of_surah_with_serial"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/siliguri"
+        android:layout_marginStart="10dp"
+        android:text="@string/name_al_fatiha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/siliguri"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="@string/dummy_ayyat"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
