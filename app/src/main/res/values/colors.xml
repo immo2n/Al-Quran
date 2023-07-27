@@ -7,6 +7,7 @@
     <color name="secondary_dark">#635D1F</color>
     <color name="text_black">#B3000000</color>
     <color name="text_hint">#66000000</color>
+    <color name="transparent">#00000000</color>
     
     <!-- splash -->
     <color name="splash_upper_back">#494501</color>
