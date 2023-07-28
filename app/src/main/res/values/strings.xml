@@ -84,4 +84,6 @@
     <string name="dummy1">আল-ফাতিহা থেকে আল-বাকারাহ</string>
     <string name="dummy2">এখন আছেন - আল-ফাতিহা</string>
     <string name="dummy3">8%</string>
+    <string name="sunday">Sun</string>
+    <string name="dummy_date">17</string>
 </resources>
