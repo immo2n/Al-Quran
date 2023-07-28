@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="@drawable/planner_item_back"
+    app:cardBackgroundColor="@color/planner_item_back_color"
+    app:cardCornerRadius="10dp"
+    android:layout_marginEnd="30dp"
+    android:layout_marginStart="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:textColor="@color/primary"
+        android:textSize="20sp"
+        android:fontFamily="@font/kalpurush"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/planner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:src="@drawable/planner_item_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/icon" />
+        <TextView
+            android:fontFamily="@font/siliguri"
+            android:textSize="15sp"
+            android:layout_marginStart="10dp"
+            android:text="@string/dummy1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:src="@drawable/planner_item_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/icon" />
+        <TextView
+            android:fontFamily="@font/siliguri"
+            android:textSize="15sp"
+            android:layout_marginStart="10dp"
+            android:text="@string/dummy2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:progress="8"
+            android:layout_gravity="center"
+            android:layout_marginEnd="45dp"
+            android:progressTint="@color/primary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:textSize="13sp"
+            android:fontFamily="@font/siliguri"
+            android:gravity="center"
+            android:layout_marginStart="-40dp"
+            android:text="@string/dummy3"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/siliguri"
+        android:text="পরুন"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/read_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -79,4 +79,9 @@
     <string name="day_conunt">দিনের সংখ্যা</string>
     <string name="dummy_three">৩</string>
     <string name="notification">নোটিফিকেশন</string>
+    <string name="planner2">প্লানার ২</string>
+    <string name="icon">Icon</string>
+    <string name="dummy1">আল-ফাতিহা থেকে আল-বাকারাহ</string>
+    <string name="dummy2">এখন আছেন - আল-ফাতিহা</string>
+    <string name="dummy3">8%</string>
 </resources>
