@@ -109,4 +109,9 @@
     <string name="logout">লগ আউট</string>
     <string name="bangla">বাংলাঃ</string>
     <string name="english">English:</string>
+    <string name="theme">Theme</string>
+    <string name="font">Font</string>
+    <string name="language">Language</string>
+    <string name="tajweed_color">Tajweed Color</string>
+    <string name="tafsir_mode_press">Tafsir mode (Press)</string>
 </resources>
