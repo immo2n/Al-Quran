@@ -73,4 +73,10 @@
     <string name="add_plan">Add plan</string>
     <string name="make_planner">প্লানার তৈরি করুন</string>
     <string name="not_found">Not found</string>
+    <string name="planner_name">প্লানার এর নাম</string>
+    <string name="planner_start">প্লানার শুরু</string>
+    <string name="planner_end">প্লানার শেষ</string>
+    <string name="day_conunt">দিনের সংখ্যা</string>
+    <string name="dummy_three">৩</string>
+    <string name="notification">নোটিফিকেশন</string>
 </resources>

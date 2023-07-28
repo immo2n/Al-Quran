@@ -180,4 +180,148 @@
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
+    <LinearLayout
+        android:id="@+id/plan_maker"
+        android:paddingBottom="80dp"
+        android:background="@drawable/menu_card_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/siliguri"
+            android:textSize="20sp"
+            android:text="@string/planner_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/login_edit_texts"
+            app:boxBackgroundMode="none"
+            android:autofillHints="None" />
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:background="@color/white"
+                android:src="@drawable/menu_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/siliguri"
+                android:gravity="center"
+                android:text="@string/planner_start"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <View
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:spinnerMode="dropdown"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:background="@color/white"
+                android:src="@drawable/menu_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/siliguri"
+                android:gravity="center"
+                android:text="@string/planner_end"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <View
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:spinnerMode="dropdown"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:fontFamily="@font/siliguri"
+                android:gravity="center"
+                android:text="@string/day_conunt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"/>
+            <EditText
+                android:fontFamily="@font/siliguri"
+                android:text="@string/dummy_three"
+                android:textAlignment="center"
+                android:inputType="number"
+                android:minWidth="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/login_edit_texts"
+                app:boxBackgroundMode="none"
+                android:autofillHints="None"
+                tools:ignore="LabelFor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:fontFamily="@font/siliguri"
+                android:gravity="center"
+                android:text="@string/notification"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"/>
+            <Switch
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+        </LinearLayout>
+
+    </LinearLayout>
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
