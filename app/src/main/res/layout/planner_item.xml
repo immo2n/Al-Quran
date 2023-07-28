@@ -96,7 +96,7 @@
         android:gravity="center"
         android:textColor="@color/white"
         android:fontFamily="@font/siliguri"
-        android:text="পরুন"
+        android:text="@string/read"
         android:layout_gravity="center"
         android:layout_marginBottom="15dp"
         android:background="@drawable/read_back"
