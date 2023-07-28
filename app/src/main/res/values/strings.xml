@@ -107,4 +107,6 @@
     <string name="share">শেয়ার করুন</string>
     <string name="settings">সেটিংশ</string>
     <string name="logout">লগ আউট</string>
+    <string name="bangla">বাংলাঃ</string>
+    <string name="english">English:</string>
 </resources>

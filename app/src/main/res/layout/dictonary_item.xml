@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center|left"
+    android:background="@drawable/prof_list_child_back"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    tools:ignore="RtlHardcoded"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginStart="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:fontFamily="@font/siliguri"
+            android:gravity="center|start"
+            android:text="@string/bangla"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"/>
+        <TextView
+            android:fontFamily="@font/siliguri"
+            android:gravity="center|start"
+            android:text="@string/english"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginEnd="20dp"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:text="@string/arabic_example"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

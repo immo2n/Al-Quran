@@ -22,6 +22,7 @@
     <color name="home_buttons">#E6FFFFFF</color>
     <color name="list_back">#F8FFFF</color>
     <color name="verse_line">#660A5966</color>
+    <color name="back_col">#e7eff0</color>
 
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
