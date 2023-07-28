@@ -92,4 +92,7 @@
     <string name="location">Location</string>
     <string name="mobile_number">Mobile Number</string>
     <string name="repeat_password">Repeat password</string>
+    <string name="_06_2022">জুন 06, 2022</string>
+    <string name="_05_19_pm">05:19 PM</string>
+    <string name="don_t_forget_to_fast_on_the_days_of_al_beed">Don’t forget to fast on the days of al-beed!!</string>
 </resources>
