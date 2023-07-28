@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/main_item"
+    android:title="@string/menu">
+    <menu>
+        <item
+            android:id="@+id/inbox_item"
+            android:icon="@drawable/nav_profile_inactive"
+            android:title="@string/account"
+            android:checkable="true"/>
+    </menu>
+    </item>
+    </menu>

@@ -99,4 +99,12 @@
     <string name="write_msg">আপনার ম্যাসেজ লিখুন...</string>
     <string name="read">পরুন</string>
     <string name="send">পাঠান</string>
+    <string name="menu">Menu</string>
+    <string name="account">অ্যাকাউন্ট</string>
+    <string name="q_d">কুরান ডিকশনারি</string>
+    <string name="sadgay_j">সদকায় জারিয়া</string>
+    <string name="give_feedback">ফিডব্যাক দিন</string>
+    <string name="share">শেয়ার করুন</string>
+    <string name="settings">সেটিংশ</string>
+    <string name="logout">লগ আউট</string>
 </resources>
